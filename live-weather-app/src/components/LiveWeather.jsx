@@ -21,7 +21,7 @@ const LiveWeather = ()=>{
     const getWeather = async ()=>{
         if(!city) return
         try{
-            const res = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}`)
+            const res = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`)
             console.log
                 if(res.data.cod == "200"){
                     setWeather(res.data)
