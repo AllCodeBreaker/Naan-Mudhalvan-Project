@@ -9,7 +9,6 @@ Live Weather App is a web based application whcih uses [openweathermap.org](http
 ### Tech Stack
 - React (UI Components)
 - Vite (Build tool)
-- GSAP (Animations)
 - Axios (API Handling)
 
 
@@ -23,17 +22,19 @@ Live Weather App is a web based application whcih uses [openweathermap.org](http
 
 ### Installation
 
-Clone the project into your local system.
+#### Clone the project
 
     $git clone https://github.com/allcodebreaker/Naan-Mudhalvan-Project.git
 
-Naviage to the `Naan-Mudhalvan-Project/live-weather-app` directory.
+#### Naviage to the directory
 
     $cd Naan-Mudhalvan-Project/live-weather-app
 
-Install the dependencies and run.
+#### Install the dependencies 
 
     $npm install
+
+####  run 
     $npm run dev
 
 
